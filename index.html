@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادة د. أحمد - عناية احترافية بأسنانك</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <i class="fas fa-tooth"></i>
+                    <span>عيادة د. أحمد</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#testimonials">آراء المرضى</a></li>
+                    <li><a href="#booking" class="btn-primary">احجز موعدك</a></li>
+                </ul>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">ابتسامتك تبدأ من هنا</h1>
+                <p class="hero-subtitle">عناية احترافية بأسنانك بأحدث التقنيات</p>
+                <p class="hero-description">نقدّم خدمات طب الأسنان بجودة عالية، واهتمام شخصي بكل مريض</p>
+                <a href="#booking" class="btn-hero">
+                    <span>اطلب موعدك الآن</span>
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="public/doctor.jpg" alt="د. أحمد" id="doctorImage">
+                        <div class="image-shine"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-label">من نحن</span>
+                    <h2 class="section-title">د. أحمد محمد</h2>
+                    <p class="about-text">
+                        طبيب أسنان بخبرة أكثر من 10 سنوات في علاج وتجميل الأسنان. نؤمن بأن الراحة والثقة أساس العلاج الناجح.
+                    </p>
+                    <div class="credentials">
+                        <div class="credential-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>شهادات معتمدة</h4>
+                                <p>بكالوريوس طب وجراحة الفم والأسنان</p>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>خبرة واسعة</h4>
+                                <p>أكثر من 10 سنوات في المجال</p>
+                            </div>
+                        </div>
+                        <div class="credential-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>آلاف المرضى</h4>
+                                <p>أكثر من 5000 حالة ناجحة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">خدماتنا</span>
+                <h2 class="section-title">الخدمات الطبية</h2>
+                <p class="section-description">نقدم مجموعة شاملة من خدمات طب الأسنان بأعلى معايير الجودة</p>
+            </div>
+            <div class="services-grid" id="servicesContainer"></div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">لماذا نحن</span>
+                <h2 class="section-title">لماذا تختار عيادتنا؟</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>أجهزة حديثة</h3>
+                    <p>نستخدم أحدث التقنيات والأجهزة الطبية</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>تعقيم عالي</h3>
+                    <p>نلتزم بأعلى معايير التعقيم والنظافة</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>تعامل إنساني</h3>
+                    <p>نهتم براحتك وطمأنينتك طوال فترة العلاج</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>مواعيد مرنة</h3>
+                    <p>نوفر مواعيد تناسب جميع الأوقات</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>نتائج مضمونة</h3>
+                    <p>جودة عالية ونتائج تدوم طويلاً</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>أسعار مناسبة</h3>
+                    <p>خدمات احترافية بأسعار تنافسية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">آراء عملائنا</span>
+                <h2 class="section-title">ماذا يقول مرضانا</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"تجربة ممتازة، تعامل راقي ونتائج رائعة. الطبيب محترف جداً وفريق العمل متعاون."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">م.أ</div>
+                        <div>
+                            <h4>محمد أحمد</h4>
+                            <span>مريض سابق</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"عيادة نظيفة جداً، أجهزة حديثة، والأهم من كل ذلك التعامل الإنساني الراقي."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">س.خ</div>
+                        <div>
+                            <h4>سارة خالد</h4>
+                            <span>مريض سابق</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"أفضل عيادة أسنان زرتها! النتائج فاقت توقعاتي والأسعار مناسبة جداً."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ع.س</div>
+                        <div>
+                            <h4>عبدالله سعيد</h4>
+                            <span>مريض سابق</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-grid">
+                <div class="booking-info">
+                    <span class="section-label">احجز الآن</span>
+                    <h2 class="section-title">اطلب موعدك الآن بكل سهولة</h2>
+                    <p class="booking-description">
+                        املأ النموذج وسنتواصل معك مباشرة لتأكيد الموعد المناسب لك
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>اتصل بنا</h4>
+                                <p dir="ltr">+966 50 123 4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>ساعات العمل</h4>
+                                <p>السبت - الخميس: 9 ص - 9 م</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>الموقع</h4>
+                                <p>الرياض، حي الملز، شارع الأمير محمد</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="booking-form-wrapper">
+                    <form class="booking-form" id="bookingForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">نوع الخدمة</label>
+                            <select id="service" name="service" required>
+                                <option value="">اختر الخدمة</option>
+                                <option value="cleaning">تنظيف الأسنان</option>
+                                <option value="whitening">تبييض الأسنان</option>
+                                <option value="filling">حشوات تجميلية</option>
+                                <option value="braces">تقويم الأسنان</option>
+                                <option value="implant">زراعة الأسنان</option>
+                                <option value="root">علاج الجذور</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">اليوم المفضل</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">الفترة</label>
+                                <select id="time" name="time" required>
+                                    <option value="">اختر الفترة</option>
+                                    <option value="morning">صباحاً (9 ص - 12 م)</option>
+                                    <option value="afternoon">ظهراً (12 م - 3 م)</option>
+                                    <option value="evening">مساءً (3 م - 9 م)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">ملاحظات إضافية (اختياري)</label>
+                            <textarea id="notes" name="notes" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>إرسال طلب الموعد</span>
+                            <i class="fab fa-whatsapp"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.3969466103447!2d46.72576931500158!3d24.713552884126835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03528f2c3bb9%3A0x1d6e8c7f5f5b5c5e!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-tooth"></i>
+                        <span>عيادة د. أحمد</span>
+                    </div>
+                    <p>نقدم خدمات طب الأسنان بجودة عالية واهتمام شخصي بكل مريض</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#hero">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#services">الخدمات</a></li>
+                        <li><a href="#booking">احجز موعد</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>تواصل معنا</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> <span dir="ltr">+966 50 123 4567</span></li>
+                        <li><i class="fas fa-envelope"></i> info@drahmed-clinic.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> الرياض، حي الملز</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 عيادة د. أحمد. جميع الحقوق محفوظة</p>
+                <p class="trust-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    هذا الموقع واجهة رسمية لعيادة د. أحمد لطب الأسنان
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="services.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
